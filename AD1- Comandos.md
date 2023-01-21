@@ -24,15 +24,15 @@ Para saber si tenemos conexión a internet podemos seguir los siguientes pasos (
 - Si queremos hacer ping para analizar más paquetes podemos usar el comando *ping* “dirección destino” *-t* (ej: ping google.es -t) y analizaremos todos los paquetes que queramos hasta que lo paremos usando CTRL + C
 - Si obtenemos “tiempo de espera agotado para esta solicitud” quiere decir que ese paquete se ha perdido y si todos los paquetes están perdidos significa que tenemos problemas con la conexión a internet
 
-![](imagen2.png)
+![](/imagenes/imagen2.png)
 
 **2. ¿Cómo sabemos si nuestro servidor es accesible desde Internet?** 
 
 Para saber si nuestro servidor es accesible desde internet podemos usar el comando netstat, concretamente usaremos *netstat -anb* para conocer todo el listado de conexiones activas que tenemos. En nuestro caso buscaremos *httpd.exe* ya que es el servicio de Apache y comprobaremos que está en Estado:LISTENING
 
-![](imagen3.png)
+![](/imagenes/.png)
 
-![](imagen4.png)
+![](/imagenes/.png)
 
 
 
@@ -66,7 +66,7 @@ nslookup 8.8.8.8
 
 Es importante tener en cuenta que el comando nslookup es antiguo y que se está dejando de usar en favor de otras como *dig* o *hos*t.
 
-![](imagen5.png)
+![](/imagenes/imagen5.png)
 
 
 
@@ -83,7 +83,7 @@ Este comando intentará conectarse al servidor tres veces antes de devolver un m
 
 En resumen,  con wget podemos descargar archivos de un servidor a través de la consola de comandos y también podemos utilizarla para probar si se puede acceder a un servidor específico.
 
-![](iamgen6.png)
+![](/imagenes/imagen6.png)
 
 *\*Nota: es necesario instalar WGET y añadir la variable de entorno para poder usarlo desde la consola*
 
