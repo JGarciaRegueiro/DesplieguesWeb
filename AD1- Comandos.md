@@ -30,9 +30,9 @@ Para saber si tenemos conexión a internet podemos seguir los siguientes pasos (
 
 Para saber si nuestro servidor es accesible desde internet podemos usar el comando netstat, concretamente usaremos *netstat -anb* para conocer todo el listado de conexiones activas que tenemos. En nuestro caso buscaremos *httpd.exe* ya que es el servicio de Apache y comprobaremos que está en Estado:LISTENING
 
-![](/imagenes/.png)
+![](/imagenes/imagen3.png)
 
-![](/imagenes/.png)
+![](/imagenes/imagen4.png)
 
 
 
